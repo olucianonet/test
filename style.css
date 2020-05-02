@@ -1,0 +1,85 @@
+
+header, footer {
+    background: #CCC;
+    padding: 20px 0;
+}
+
+.container {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+.navbar-item {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.produtos {    
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.4%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.produtos li:hover {
+    border-color: #C78C19;
+
+}
+.produtos li:hover h2 {
+    font-size: 35px;
+}
+.produtos li:active {
+    border-color: green;
+}
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+.produto-descricao {
+    font-size: 18px;
+}
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+
+footer .container {
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    header {
+        background: red;
+    }
+/*    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video, .produtos li, .produtos{
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    nav ul, .produtos{
+        position: static;
+    }
+    .lista-beneficios, .imagem-beneficios {
+        width: 100%;
+    }*/
+}
